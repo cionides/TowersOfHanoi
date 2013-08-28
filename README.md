@@ -1,9 +1,9 @@
 TowersOfHanoi
 =============
 
-Simulates the Towers of Hanoi; User can chose the number of disks and whether it will use Depth First Search of Breadth First Search
+__OBJECTIVE:__ Simulates the Towers of Hanoi. The User can chose the number of disks and whether it will use Depth First Search of Breadth First Search
 
-Run Instructions:
+__TO RUN:__
 
-*javac TowersOfHanoi.java Node.java
-*java TowersOfHanoi
+* javac TowersOfHanoi.java Node.java
+* java TowersOfHanoi
