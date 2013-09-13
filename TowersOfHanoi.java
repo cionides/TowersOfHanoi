@@ -89,18 +89,22 @@ public class TowersOfHanoi {
                 
                 System.out.println("No solution found");
                 return;
-            } else {
+            }
+            
+            while(bfsQueue.size() >= 1){
                 current = bfsQueue.remove();
                 if (current.equals(goalState)) {
                     printState(current);
                     break;
                 } else {
                     printState(current);
-                    successors(current);
+                    //successors(current);
                     listOfStates.add(current);
                     
                 }
             }
+            successors(current);
+            
         }
         
     }
